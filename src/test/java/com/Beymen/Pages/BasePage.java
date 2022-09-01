@@ -103,7 +103,7 @@ public class BasePage extends TestBase {
             Random rn = new Random();
             int a = rn.nextInt(randomProduct.size());
             BrowserUtils.waitFor(1);
-            a = 3; //Random olarak productları seçiyor ancak beden ölçüsü kalmayan procut varsa fail oluyor o yüzden beden sayısı olan bir product verdim
+            a = 2; //Random olarak productları seçiyor ancak beden ölçüsü kalmayan procut varsa fail oluyor o yüzden beden sayısı olan bir product verdim
             randomProduct.get(a).click();
             BrowserUtils.waitFor(1);
         }
