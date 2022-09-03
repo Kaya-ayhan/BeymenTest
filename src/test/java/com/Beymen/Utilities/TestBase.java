@@ -39,7 +39,7 @@ public class TestBase {
         report.attachReporter(htmlReporter);
 
         //title in report
-        htmlReporter.config().setReportName("GittiGidiyor Proje Musa");
+        htmlReporter.config().setReportName("Beymen Report");
 
         //set environment information
         report.setSystemInfo("Environment","Test");
